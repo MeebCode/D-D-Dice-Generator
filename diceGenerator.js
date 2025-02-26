@@ -1,5 +1,5 @@
 /* script.js */
-function roll(sides) {
+window.roll = function(sides) {
     rollDice(sides);
 }
 
