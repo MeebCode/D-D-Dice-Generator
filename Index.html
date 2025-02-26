@@ -10,16 +10,17 @@
 <body>
     <h1>Dungeons & Dragons Dice Roller</h1>
     <div class="dice-container">
-        <button onclick="rollDice(4)">Roll d4</button>
-        <button onclick="rollDice(6)">Roll d6</button>
-        <button onclick="rollDice(8)">Roll d8</button>
-        <button onclick="rollDice(10)">Roll d10</button>
-        <button onclick="rollDice(12)">Roll d12</button>
-        <button onclick="rollDice(20)">Roll d20</button>
-        <button onclick="rollDice(100)">Roll d100</button>
+        <button onclick="roll(4)">Roll d4</button>
+        <button onclick="roll(6)">Roll d6</button>
+        <button onclick="roll(8)">Roll d8</button>
+        <button onclick="roll(10)">Roll d10</button>
+        <button onclick="roll(12)">Roll d12</button>
+        <button onclick="roll(20)">Roll d20</button>
+        <button onclick="roll(100)">Roll d100</button>
     </div>
-    <div id="result"></div>
+    <div id="result-container">
+        <p id="result"></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
-
